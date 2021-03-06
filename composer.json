@@ -1,0 +1,57 @@
+{
+    "name": "thetestcoder/laravel-quiz-exam",
+    "description": "Laravel Package for exam quiz",
+    "keywords": [
+        "thetestcoder",
+        "laravel-quiz-exam"
+    ],
+    "homepage": "https://github.com/thetestcoder/laravel-quiz-exam",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "The Test Coder",
+            "email": "thetestcoder@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/contracts": "^8.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.17",
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "TheTestCoder\\LaravelQuizExam\\": "src/",
+            "TheTestCoder\\LaravelQuizExam\\Database\\Factories\\": "database/factories/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TheTestCoder\\LaravelQuizExam\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor\\bin\\phpunit",
+        "phpunit": "vendor/bin/phpunit",
+        "test-coverage": "vendor\\bin\\phpunit --coverage-html test-reports/coverage",
+        "format": "vendor\\bin\\php-cs-fixer fix"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TheTestCoder\\LaravelQuizExam\\LaravelQuizExamServiceProvider"
+            ],
+            "aliases": {
+                "LaravelQuizExam": "TheTestCoder\\LaravelQuizExam\\LaravelQuizExamFacade"
+            }
+        }
+    }
+}
