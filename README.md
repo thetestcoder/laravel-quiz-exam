@@ -7,14 +7,6 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/thetestcoder/laravel-quiz-exam.svg?style=flat-square)](https://scrutinizer-ci.com/g/thetestcoder/laravel-quiz-exam)
 [![Total Downloads](https://img.shields.io/packagist/dt/thetestcoder/laravel-quiz-exam.svg?style=flat-square)](https://packagist.org/packages/thetestcoder/laravel-quiz-exam)
 
-## After Changes
-
-1. composer install
-2. start writing code in src directory
-3. test your code in tests directory
-4. check hint from existing file
-5. just remove from here to top all lines till Clone Package after successfully clone and editing done
-
 ## Installation
 
 You can install the package via composer:
