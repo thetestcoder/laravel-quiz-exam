@@ -7,22 +7,6 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/thetestcoder/laravel-quiz-exam.svg?style=flat-square)](https://scrutinizer-ci.com/g/thetestcoder/laravel-quiz-exam)
 [![Total Downloads](https://img.shields.io/packagist/dt/thetestcoder/laravel-quiz-exam.svg?style=flat-square)](https://packagist.org/packages/thetestcoder/laravel-quiz-exam)
 
-## Clone Package
-
-```bash
-git clone https://github.com/thetestcoder/php-package-structure project-name
-```
-
-## Change After Clone
-
-1. composer.json
-2. README.md
-3. LICENCE.md
-4. CONTRIBUTING.md (Add Your Email ID)
-5. CHANGELOG.md  (Add Your package name)
-6. SECURITY.md  (Add Your Email ID)
-7. FUNDING.md
-
 ## After Changes
 
 1. composer install
@@ -42,7 +26,7 @@ composer require thetestcoder/laravel-quiz-exam
 ## Usage
 
 ``` php
-// Usage description here
+// Usage description Update soon
 ```
 
 ### Testing
